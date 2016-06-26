@@ -1,0 +1,551 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+    <title>Joffrey GLESS</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/knacss.css" />
+    <link rel="stylesheet" href="./style/font-awesome.css" />
+    <link rel="stylesheet" media="screen" title="Design" href="./style/style.css">
+    <link rel="stylesheet" type="text/css" href="./style/jquery.fullPage.css" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+</head>
+
+
+<body>
+
+
+    <div id="header">
+        <ul class="topnav">
+            <li class="menu_logo">
+                <a href="#section0"><img src="images/logo.png"></a>
+            </li>
+            <li class="menu_nav"><a class="active" href="#section0"><strong>Accueil</strong></a></li>
+            <li class="menu_nav"><a href="#section1"><strong>Profil</strong></a></li>
+            <li class="menu_nav"><a href="#section2"><strong>Compétences</strong></a></li>
+            <li class="menu_nav"><a href="#section3"><strong>Portfolio</strong></a></li>
+            <li class="menu_nav"><a href="#section4"><strong>Contact</strong></a></li>
+            <li class="icon menu_nav">
+                <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div id="fullpage">
+        <div class="section " id="section0">
+            <video autoplay loop muted id="myVideo">
+                <source src="./images/notebook.mp4" type="video/mp4">
+            </video>
+            <div class="layer">
+                <div class="container">
+                    <div class="col-md-12 col-sm-12">
+                        <h1>Joffrey Gless</h1>
+                        <hr>
+                        <h3>Intégration & Développement Web</h3>
+                        <div class="social_link">
+                            <ul>
+                                <a href="" # class="fa fa-twitter">
+                                    <li>Twitter</li>
+                                </a>
+                                <a href="" # class="fa fa-linkedin">
+                                    <li>Linkedin</li>
+                                </a>
+                                <a href="" # class="fa fa-github">
+                                    <li>Github</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <a href="#section1" class="fa fa-arrow-down">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section " id="section1">
+            <!-- profile begins -->
+
+            <section id="main" role="main" class="grid pal">
+                <h1 class="TitrePrincipal">Profil</h1>
+                <div class="grid-1-4">
+                    <aside class=""><img src="images/profil.png"></aside>
+                    <div class="description">
+                        <p>Actuellement en première année de DUT MMI (Métiers du Multimédia et de l’Internet), j’étudie le développement et l’intégration web, le webdesign, l’infographie et l’audiovisuel.
+                            </br>
+                            </br>Passionné par tout ce qui touche au web, je suis à la fois dynamique, curieux et organisé.
+                        </p>
+
+                    </div>
+                </div>
+                <p>
+                    <input type="button" value="Voir mon CV" onClick="window.open('./pdf/CV_fr.pdf');">
+                    <a href="#section4">
+                        <button type="button" class="btn btn-default btn-lg">Me contacter</button>
+                    </a>
+                </p>
+                <p class="scroll_bottom">
+                    <a href="#section2" class="fa fa-arrow-down">
+                    </a>
+                </p>
+            </section>
+            <!-- 
+<section class="clearfix profil">
+                <h1 class="TitrePrincipal">Upcoming events</h1>
+                <article class="image_profil">
+
+                    <img src="images/profil.png">
+                </article>
+
+                <article class="description">
+                    
+
+
+                </article>
+                
+            </section>
+profile ends -->
+
+        </div>
+
+        <div class="section" id="section2">
+            <section id="main" role="main">
+                <h1 class="TitrePrincipal">Compétences</h1>
+                <div class="grid-2-2">
+                    <div>                        
+                        <h2>Programation</h2>
+                        <br/>
+                        <p>HTML/CSS</p>
+                        <div class="barre" data-length="80"></div>
+                        <br/>
+                        <p>Wordpress</p>
+                        <div class="barre" data-length="60"></div>
+                        <br/>
+                        <p>PHP</p>
+                        <div class="barre" data-length="50"></div>
+                        <br/>
+                        <p>SQL</p>
+                        <div class="barre" data-length="60"></div>
+                        <br/>
+                        <p>JavaScript</p>
+                        <div class="barre" data-length="40"></div>
+                    </div>
+                    <div>
+                        <h2>Suite Adobe</h2>
+                        <br/>
+                        <p>Photoshop</p>
+                        <div class="barre" data-length="60"></div>
+                        <br/>
+                        <p>Illustrator</p>
+                        <div class="barre" data-length="70"></div>
+                        <br/>
+                        <p>Première Pro</p>
+                        <div class="barre" data-length="60"></div>                     
+                    </div>
+                </div>
+            </section>
+            <p class="scroll_bottom">
+                <a href="#section3" class="fa fa-arrow-down">
+                </a>
+            </p>
+        </div>
+
+
+
+        <div class="section " id="section3">
+            <div class="slide" id="slide1" data-anchor="slide1">
+                <div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                </div>
+                <div class="intro">
+                    <div class="wrapper portfolio">
+                        <nav class="tri">
+                            <ul>
+                                SITES WEB
+                            </ul>
+                            <div class="clear"></div>
+                        </nav>
+
+
+                        <!-- STRUCTURE D'UN ELEMENT -->
+                        <a class="item print">
+                            <h3 class="item-title">Application bibliothèque</h3>
+                            <hr class="hr-title-top">
+                            <p class="item-description">Développement d'une application Web en PHP pour une bibliothèque permettant de visualiser du contenu, de le modifier, et d'en ajouter.</p>
+                            <hr class="hr-title-bot">
+                            <div class="black-overlay"></div>
+                            <div class="background"><img src="./images/website02.PNG"></div>
+                        </a>
+                        <a class="item web">
+                            <h3 class="item-title">Hôtel Le Buet</h3>
+                            <hr class="hr-title-top">
+                            <p class="item-description">Création d'un site pour l'Hôtel Du Buet, situé à Vallorcine dans les Alpes, en utilisant le CMS Wordpress.</p>
+                            <hr class="hr-title-bot">
+                            <div class="black-overlay"></div>
+                            <div class="background"><img src="./images/website01.PNG"></div>
+                        </a>
+                    </div>
+                    <!-- Fermeture de la div wrapper -->
+                </div>
+                <p class="scroll_bottom">
+                    <a href="#section4" class="fa fa-arrow-down">
+                    </a>
+                </p>
+                <div>
+                    <br/>
+                    <br/>
+                </div>
+            </div>
+
+
+            <div class="slide" id="slide2" data-anchor="slide2">
+                <div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                </div>
+                <div class="intro">
+                    <div class="wrapper portfolio">
+                        <nav class="tri">
+                            <ul>
+                                MAQUETTES
+                            </ul>
+                            <div class="clear"></div>
+                        </nav>
+
+
+                        <!-- STRUCTURE D'UN ELEMENT -->
+                        <a class="item print">
+                            <h3 class="item-title">Seven Oaks</h3>
+                            <hr class="hr-title-top">
+                            <p class="item-description">Travail d'intégration à partir d'une maquette.</p>
+                            <hr class="hr-title-bot">
+                            <div class="black-overlay"></div>
+                            <div class="background"><img src="./images/maquette02.png"></div>
+                        </a>
+                        <a class="item web">
+                            <h3 class="item-title">Pic3Lab</h3>
+                            <hr class="hr-title-top">
+                            <p class="item-description">Réalisation d'une maquette de site web pour le FabLab fictif de Colmar.</p>
+                            <hr class="hr-title-bot">
+                            <div class="black-overlay"></div>
+                            <div class="background"><img src="./images/maquette.png"></div>
+                        </a>
+                    </div>
+                    <!-- Fermeture de la div wrapper -->
+                </div>
+                <p class="scroll_bottom">
+                    <a href="#section4" class="fa fa-arrow-down">
+                    </a>
+                </p>
+                <div>
+                    <br/>
+                    <br/>
+                </div>
+            </div>
+            <div class="slide" id="slide3" data-anchor="slide3">
+                <div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                </div>
+                <div class="intro">
+                    <div class="wrapper portfolio">
+                        <nav class="tri">
+                            <ul>
+                                PICTOGRAMMES
+                            </ul>
+                            <div class="clear"></div>
+                        </nav>
+
+
+                        <!-- STRUCTURE D'UN ELEMENT -->
+                        <a class="item print">
+                            <h3 class="item-title">Pictogrammes divers</h3>
+                            <hr class="hr-title-top">
+                            <p class="item-description">Réalisation de divers pictogrammes.</p>
+                            <hr class="hr-title-bot">
+                            <div class="black-overlay"></div>
+                            <div class="background"><img src="./images/picto01.png"></div>
+                        </a>
+                        <a class="item web">
+                            <h3 class="item-title">Pictogrammes Garage</h3>
+                            <hr class="hr-title-top">
+                            <p class="item-description">Réalisation de pictogrammes pouvant être utilisés pour le site d'un garage.</p>
+                            <hr class="hr-title-bot">
+                            <div class="black-overlay"></div>
+                            <div class="background"><img src="./images/picto02.png"></div>
+                        </a>
+                    </div>
+                    <!-- Fermeture de la div wrapper -->
+                </div>
+                <p class="scroll_bottom">
+                    <a href="#section4" class="fa fa-arrow-down">
+                    </a>
+                </p>
+                <div>
+                    <br/>
+                    <br/>
+                </div>
+            </div>
+
+
+            <div class="slide" id="slide4" data-anchor="slide4">
+                <div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                </div>
+                <div class="intro">
+                    <div class="wrapper portfolio">
+                        <nav class="tri">
+                            <ul>
+                                AFFICHES
+                            </ul>
+                            <div class="clear"></div>
+                        </nav>
+
+
+                        <!-- STRUCTURE D'UN ELEMENT -->
+                        <a class="item print">
+                            <h3 class="item-title">Portes ouvertes IUT Haguenau</h3>
+                            <hr class="hr-title-top">
+                            <p class="item-description">Création d'une affiche pour les portes ouvertes de l'IUT d'Haguenau en s'inspirant de Michel Bouvet</p>
+                            <hr class="hr-title-bot">
+                            <div class="black-overlay"></div>
+                            <div class="background"><img src="./images/affiche01.png"></div>
+                        </a>
+                        <a class="item web">
+                            <h3 class="item-title">La Semaine du Goût</h3>
+                            <hr class="hr-title-top">
+                            <p class="item-description">Création d'une affiche pour la semaine du goût.</p>
+                            <hr class="hr-title-bot">
+                            <div class="black-overlay"></div>
+                            <div class="background"><img src="./images/affiche02.png"></div>
+                        </a>
+                    </div>
+                    <!-- Fermeture de la div wrapper -->
+                </div>
+                <p class="scroll_bottom">
+                    <a href="#section4" class="fa fa-arrow-down">
+                    </a>
+                </p>
+                <div>
+                    <br/>
+                    <br/>
+                </div>
+            </div>
+            
+            
+            <div class="slide" id="slide5" data-anchor="slide5">
+                <div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                </div>
+                <div class="intro">
+                    <div class="wrapper portfolio">
+                        <nav class="tri">
+                            <ul>
+                                LOGOS
+                            </ul>
+                            <div class="clear"></div>
+                        </nav>
+
+
+                        <!-- STRUCTURE D'UN ELEMENT -->
+                        <a class="item print">
+                            <h3 class="item-title">Logos 02</h3>
+                            <hr class="hr-title-top">
+                            <p class="item-description">Réalisation de logos s'inspirants de marques connues.</p>
+                            <hr class="hr-title-bot">
+                            <div class="black-overlay"></div>
+                            <div class="background"><img src="./images/logo02.png"></div>
+                        </a>
+                        <a class="item web">
+                            <h3 class="item-title">Logos 01</h3>
+                            <hr class="hr-title-top">
+                            <p class="item-description">Travail de recherche sur les logos.</p>
+                            <hr class="hr-title-bot">
+                            <div class="black-overlay"></div>
+                            <div class="background"><img src="./images/logo01.png"></div>
+                        </a>
+                    </div>
+                    <!-- Fermeture de la div wrapper -->
+                </div>
+                <p class="scroll_bottom">
+                    <a href="#section4" class="fa fa-arrow-down">
+                    </a>
+                </p>
+                <div>
+                    <br/>
+                    <br/>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="section " id="section4">
+            <section id="main" role="main" class="grid pal">
+                <div class="grid-1">
+                    <h1 class="TitrePrincipal">Contactez-moi</h1>
+                    <form name="survey" enctype="text/plain" method="post" action="mailto:jo.gless@orange.fr?subject=Traitement du formulaire" class="form">
+                        <fieldset>
+                            <legend><strong>Vos coordonnées</strong></legend>
+                            <p>
+                                <input type="text" id="nom" name="nom" tabindex="1" placeholder="Votre nom" />
+                            </p>
+                            <p>
+                                <input type="text" id="email" name="email" tabindex="2" placeholder="Votre adresse mail" />
+                            </p>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><strong>Votre message :</strong></legend>
+                            <p>
+                                <input type="text" id="objet" name="objet" tabindex="3" placeholder="L'objet de votre message" />
+                            </p>
+                            <p>
+                                <textarea id="message" name="message" tabindex="4" cols="30" rows="8" placeholder="Message..."></textarea>
+                            </p>
+                        </fieldset>
+
+                        <div style="text-align:center;">
+                            <input type="submit" name="envoi" value="Envoyer" />
+                        </div>
+                    </form>
+
+                </div>
+            </section>
+            <div id="footer">
+                © Joffrey GLESS 2016
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+    <script type="text/javascript" src="./js/jquery-3.0.0.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="./js/scrolloverflow.js"></script>
+    <script type="text/javascript" src="./js/scrolloverflow.min.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="./js/portfolio.js"></script>
+
+    <script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="./js/examples.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                anchors: ['accueil', 'profil', 'compétences', 'portfolio', 'contact']
+                , sectionsColor: ['', '#BCBBBB', '#BCBBBB', '#BCBBBB', '#BCBBBB']
+                , scrollBar: true
+                , scrollingSpeed: 1700
+                , responsiveHeight: 600
+                , scrollOverflowOptions: {
+                    scrollbars: true
+                    , mouseWheel: true
+                    , hideScrollbars: false
+                    , fadeScrollbars: false
+                    , disableMouse: true
+
+                }
+                , afterRender: function () {
+
+
+                    //playing the video
+                    $('video').get(0).play();
+                }
+                , scrollOverflow: true
+                , slidesNavigation: true,
+
+            });
+        });
+    </script>
+
+
+    <script>
+        $(function () {
+            $('a[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1700);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        function myFunction() {
+            document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+        }
+    </script>
+    <script>
+        var ctx = document.getElementById('my_canvas').getContext('2d');
+        var al = 0;
+        var start = 4.72;
+        var cw = ctx.canvas.width;
+        var ch = ctx.canvas.height;
+        var diff;
+
+        function progressSim() {
+            diff = ((al / 100) * Math.PI * 2 * 10).toFixed(2);
+            ctx.clearRect(0, 0, cw, ch);
+            ctx.lineWidth = 10;
+            ctx.fillStyle = '#A0A0A0';
+            ctx.strokeStyle = "#F5AD12";
+            ctx.textAlign = 'center';
+            ctx.fillText(al + '%', cw * .5, ch * .5 + 2, cw);
+            ctx.textBaseline = 'middle';
+            ctx.font = "35px Lato";
+            ctx.beginPath();
+            ctx.arc(91, 99, 82, start, diff / 10 + start, false);
+            ctx.stroke();
+            if (al >= 75) {
+                clearTimeout(sim);
+                // Add scripting here that will run when progress completes
+            }
+            al++;
+        }
+        var sim = setInterval(progressSim, 20);
+    </script>
+</body>
+
+</html>
